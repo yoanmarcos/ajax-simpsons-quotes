@@ -18,3 +18,7 @@ function fetchSimpsonJSON() {
 }
 
 fetchSimpsonJSON();
+
+document.querySelector('.new-quote-button').addEventListener('click', () => {
+    fetchSimpsonJSON()
+})
